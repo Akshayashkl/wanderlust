@@ -107,3 +107,22 @@ body{
     background-color: #fe424d !important;
     border: none !important;
 }
+
+/*show page*/
+.show-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 40vh; /* Controls vertical size */
+  object-fit: cover;
+  object-position: center;
+}
+.btns{
+    display: flex;
+}
+
+.show-card{
+    padding:0;
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
